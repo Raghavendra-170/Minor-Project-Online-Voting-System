@@ -30,27 +30,30 @@ IDE	Eclipse
 Version Control	Git & GitHub
 
 ## 📂 Project Structure
-``
+
+```text
 OnlineVotingSystem
- ├── src
- │   └── main
- │       └── webapp
- │           ├── index.jsp
- │           ├── home.jsp
- │           ├── user_ins.jsp
- │           ├── cand_ins.jsp
- │           ├── voting_ins.jsp
- │           ├── voting_status.jsp
- │           ├── imp_dates.jsp
- │           ├── electoral.jsp
- │           ├── connection.jsp
- │           ├── voter_inst.html
- │           ├── cand_inst.html
- │           └── WEB-INF
- │               └── lib
- │                   └── mysql-connector-j-8.x.x.jar
- └── .gitignore
-``
+├── src
+│   └── main
+│       └── webapp
+│           ├── index.jsp              # Entry page
+│           ├── home.jsp               # Dashboard
+│           ├── user_ins.jsp           # User registration backend
+│           ├── cand_ins.jsp           # Candidate registration backend
+│           ├── voting_ins.jsp         # Vote casting backend
+│           ├── voting_status.jsp      # Live voting results
+│           ├── imp_dates.jsp          # Important dates
+│           ├── electoral.jsp          # Electoral roll
+│           ├── connection.jsp         # JDBC connection
+│           ├── voter_inst.html        # Voter instructions
+│           ├── cand_inst.html         # Candidate instructions
+│           └── WEB-INF
+│               └── lib
+│                   └── mysql-connector-j-8.x.x.jar
+├── .gitignore
+└── README.md
+```
+
 
 ## 🗄️ Database Design
 ```
