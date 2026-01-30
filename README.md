@@ -53,9 +53,9 @@ OnlineVotingSystem
 ``
 
 ## 🗄️ Database Design
-``
+```
 onlineelectionsystem
-``
+```
 
 ### Tables Used
 
@@ -66,21 +66,21 @@ cand_reg – candidate details
 voting – votes cast
 
 ### Example: voting Table
-``
+```
 CREATE TABLE voting (
   uid VARCHAR(20),
   name VARCHAR(100)
 );
-``
+```
 ## 🔗 Database Connection (JDBC)
-``
+```
 Class.forName("com.mysql.cj.jdbc.Driver");
 Connection con = DriverManager.getConnection(
   "jdbc:mysql://localhost:3306/onlineelectionsystem?useSSL=false&serverTimezone=UTC",
   "databasename",
   "password"
 );
-``
+```
 
 ## 🚀 How to Run the Project
 
@@ -97,20 +97,26 @@ Add MySQL Connector/J to WEB-INF/lib
 Start Tomcat server
 
 Open browser:
-``
+```
 http://localhost:8081/OnlineVotingSystem/
-``
+```
 ## 📊 Voting Result Logic
+```
 SELECT name, COUNT(name) AS votes
 FROM voting
 GROUP BY name;
+```
 
 ## 🧠 Key Learning Outcomes
 
 JSP–JDBC integration
+
 SQL aggregation (COUNT, GROUP BY)
+
 Server-side form handling
+
 Web application deployment on Tomcat
+
 GitHub version control with .gitignore
 
 ## 🔮 Future Enhancements
