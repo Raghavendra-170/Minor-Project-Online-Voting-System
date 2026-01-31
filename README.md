@@ -145,5 +145,7 @@ Charts for live results
 ## 👨‍💻 Author
 
 Raghavendra Kukkadapu
-📍 India
+
+📍 Hyderabad, India
+
 💻 Java | SQL | Web Development
