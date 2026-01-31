@@ -20,14 +20,22 @@ This project allows voters to register, cast votes securely, and view election r
 
 ## 🧩 Modular JSP-based Architecture
 
-🛠️ Technologies Used
+### 🛠️ Technologies Used
+
 Layer	Technology
+
 Frontend	HTML, CSS
+
 Backend	JSP, JDBC
+
 Database	MySQL
+
 Server	Apache Tomcat 9
+
 IDE	Eclipse
+
 Version Control	Git & GitHub
+
 
 ## 📂 Project Structure
 
